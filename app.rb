@@ -20,3 +20,5 @@ get '/models' do
 	@models = Model.all
 	erb :models
 end
+
+
